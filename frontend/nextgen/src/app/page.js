@@ -10,30 +10,20 @@ export default function Home() {
 
   const [name,setname]=useState("empty");
   return (
-    <div className="  dark:bg-black">
-     
-<h1>Hello ji sabn thik thakk.................{name}...................</h1>
-<br></br>
-{
-Child()
-}
-<br></br>
-<button onClick={()=>{navigate.push('/login/student')}} style={{border:"1px solid white"}}> click me </button>
-    <Link href="/login">Go to home</Link>
-    <button onClick={()=>{navigate.push('/login/teacher')}} style={{border:"1px solid white"}}> click me </button>
-    <Link href="/login">Go to home</Link>
-    </div>
-  );
-}
+    <div>
+<ul>
+<li>
+<Link href="/about">about</Link>
+</li>
+<li>
+<Link href="/login">login</Link>
+</li>
 
-const Child =()=>{
-return(
-  <dib>
-    <h1>
+
+</ul>
+<h1>wellcome to home screen</h1>
       
-      hello ji iam child 
-    </h1>
-  </dib>
-)
+    </div>
+  )
 
 }
