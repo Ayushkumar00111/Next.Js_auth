@@ -1,5 +1,4 @@
 "use client"
-import { getFlightDataPartsFromPath } from "next/dist/client/flight-data-helpers";
 import { useEffect , useState } from "react"
 export default  function Api(){
       const url ='https://dummyjson.com/products'
@@ -22,11 +21,11 @@ const fetchData = async ()=> {
    return(
     <div>
     <h1> there we get the api data </h1>
-    {
-      product.map(( iteam )=>{
-<h1>{iteam.title}</h1>
-      })
-    }
+   {
+    product.map((item)=>(
+      <h1 key={item.id }>{item.title}</h1>
+    ))
+   }
     </div>
    ) 
 }
