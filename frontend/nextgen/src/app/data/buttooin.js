@@ -1,9 +1,10 @@
-"use client"
-export default function Button({price}){
+
+export default function Button({price ,sendfun}){
+
     console.log(price)
     return (
         <div>
-            <button onClick={()=>{alert("what is wrong in it" +price)}}>Click me</button>
+            <button style={{border:"2px white solid" , backgroundColor:"red"}} onClick={sendfun}>Click me</button>
         </div>
     )
 }

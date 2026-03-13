@@ -29,3 +29,4 @@ const fetchData = async ()=> {
     </div>
    ) 
 }
+

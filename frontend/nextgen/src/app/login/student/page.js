@@ -5,3 +5,9 @@ export default function Student(){
         </>
     )
 }
+export function generateMetadata({pa}) {
+  return {
+    title: "Product Page",
+    description: "This is product page"
+  }
+}
