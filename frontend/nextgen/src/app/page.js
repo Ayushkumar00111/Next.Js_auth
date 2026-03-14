@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import Link from "next/link";
-import photo from "../../public/radha.jpg"
+
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -23,12 +23,7 @@ export default function Home() {
 
 </ul>
 <h1>wellcome to home screen</h1>
-      <Image 
-      src={photo}
-height={200}
-width={200}
-alt=""
-      />
+  <Image src="/radha.jpg" width={200} height={200} alt="radha" />
      
     </div>
   )
