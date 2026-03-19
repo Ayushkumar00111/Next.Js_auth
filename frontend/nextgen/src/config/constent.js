@@ -1,0 +1,1 @@
+export const Base_url=process.env.NODE_ENV=="development"?"WWW.COM":"WWW.YAAHU";

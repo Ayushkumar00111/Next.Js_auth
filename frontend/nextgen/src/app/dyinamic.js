@@ -1,0 +1,38 @@
+export const  User=[{
+    name:"ayush",
+    age:23,
+    email:"ayush@gmail.com"
+},
+{
+    name:"ayush2",
+    age:232,
+    email:"ayush2@gmail.com"
+},{
+    name:"ayush3",
+    age:233,
+    email:"ayush3@gmail.com"
+},{
+    name:"ayush4",
+    age:234,
+    email:"ayush4@gmail.com"
+},{
+    name:"ayush5",
+    age:235,
+    email:"ayush5@gmail.com"
+},{
+    name:"ayush6",
+    age:236,
+    email:"ayush6@gmail.com"
+},{
+    name:"ayush7",
+    age:237,
+    email:"ayush7@gmail.com"
+},{
+    name:"ayush8",
+    age:238,
+    email:"ayush8@gmail.com"
+},{
+    name:"ayush9",
+    age:239,
+    email:"ayush9@gmail.com"
+},]
