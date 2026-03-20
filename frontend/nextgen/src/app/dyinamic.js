@@ -1,38 +1,47 @@
 export const  User=[{
     name:"ayush",
     age:23,
-    email:"ayush@gmail.com"
+    email:"ayush@gmail.com",
+    id:1
 },
 {
     name:"ayush2",
     age:232,
-    email:"ayush2@gmail.com"
+    email:"ayush2@gmail.com",
+    id:2
 },{
     name:"ayush3",
     age:233,
-    email:"ayush3@gmail.com"
+    email:"ayush3@gmail.com",
+    id:3
 },{
     name:"ayush4",
     age:234,
-    email:"ayush4@gmail.com"
+    email:"ayush4@gmail.com",
+    id:4
 },{
     name:"ayush5",
     age:235,
-    email:"ayush5@gmail.com"
+    email:"ayush5@gmail.com",
+    id:5
 },{
     name:"ayush6",
     age:236,
-    email:"ayush6@gmail.com"
+    email:"ayush6@gmail.com",
+    id:6
 },{
     name:"ayush7",
     age:237,
-    email:"ayush7@gmail.com"
+    email:"ayush7@gmail.com",
+    id:7
 },{
     name:"ayush8",
     age:238,
-    email:"ayush8@gmail.com"
+    email:"ayush8@gmail.com",
+    id:8
 },{
     name:"ayush9",
     age:239,
-    email:"ayush9@gmail.com"
+    email:"ayush9@gmail.com",
+    id:9
 },]

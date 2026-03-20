@@ -5,7 +5,7 @@ export async function GET() {
   
  
     
-    return NextResponse.json(User,{status:599})
+    return NextResponse.json(User,{status:299})
    
     
 }
