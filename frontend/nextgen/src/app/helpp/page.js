@@ -6,7 +6,7 @@ async function api(){
     data = await data.json();
     return data
 }
-export default async function GET(){
+export  async function GET(){
     const data = await api();
 
     return (
@@ -21,9 +21,9 @@ export default async function GET(){
 }
 
 
-export async function POST(request){
+export  async function POST(request){
     const data = await request.json();
-
+console.log(data)
     if(!data.name){
         return NextResponse.json(
             { result: false, message: "Name is required" },
