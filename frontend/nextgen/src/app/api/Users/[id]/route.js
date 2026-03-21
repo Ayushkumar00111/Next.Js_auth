@@ -7,5 +7,5 @@ const data =  User
 const pure = data.filter((item)=>item.id==id)
 
 
-  return NextResponse.json(pure,{status:299});
+  return NextResponse.json(pure.length!==0?{reuslt:pure[0] ,success:true}:{reuslt:"not found",success:false},{status:299});
 }
