@@ -36,3 +36,15 @@ if(!data.name || !data.age || !data.email){
     return NextResponse.json({result:"success"
     },{status:201})
 }
+export  async function DELETE(request , context){
+    const params =await context.params
+    // const data =  await request.json();
+    // console.log(data)
+if(!params.id){
+     return NextResponse.json({result:"fail"
+    },{status:401}) 
+}
+
+    return NextResponse.json({result:"success"
+    },{status:201})
+}
