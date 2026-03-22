@@ -14,7 +14,10 @@ export default async function GET(context){
     return (
         <div>
             {data.map(iteam=>(
+                <div key={iteam.id}>
                 <Link href={`help/${iteam.id}`}>{iteam.name}</Link>
+                <Link href={`help/${iteam.id}`}> edit</Link>
+                </div>
             ))}
         </div>
     )
