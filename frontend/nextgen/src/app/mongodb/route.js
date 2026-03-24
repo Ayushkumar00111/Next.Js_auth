@@ -1,10 +1,23 @@
- import mongoose from "mongoose";
-import {  NextResponse } from "next/server"
-import { URL } from "../db/db";
+import mongoose from "mongoose";
+import { product } from "./schema/page";
 
+export async function GET() {
+    await mongoose.connect(process.env.MONGODB);
+    const data = await product.find();
+    console.log(data)
+    return Response.json({ result: "connected local db" ,succes :data});
+}
 
-export async function  GET() {
-     await mongoose.connect(URL);
-    console.log(URL)
-    return NextResponse.json({result:"suucess"},{status:201})
+export async function POST(request) {
+    await mongoose.connect(process.env.MONGODB);
+    const new_method = new product({
+        name:"sunil",
+        age:29,
+        email:"@sunil"
+
+    })
+    const reuslt = await new_method.save();
+    
+    console.log(reuslt)
+    return Response.json({ result: "connected local db" });
 }
