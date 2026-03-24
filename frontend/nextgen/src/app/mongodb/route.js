@@ -10,12 +10,8 @@ export async function GET() {
 
 export async function POST(request) {
     await mongoose.connect(process.env.MONGODB);
-    const new_method = new product({
-        name:"sunil",
-        age:29,
-        email:"@sunil"
-
-    })
+    const playload = await request.json()
+    const new_method = new product(playload)
     const reuslt = await new_method.save();
     
     console.log(reuslt)
