@@ -1,8 +1,10 @@
 "use client"
 
-import { useEffect, useState } from "react"
-
+import { useRouter } from "next/navigation";
+import {  useState } from "react"
+useRouter
 export default function post(){
+    const navi = useRouter();
     const [from , setfrom]=useState({
         name:"",
         age:"",
@@ -12,13 +14,13 @@ export default function post(){
    
 
 const dataftech=async()=>{
-    // let data = await fetch("http://localhost:3000/mongodb",{
-    //     method:"Post",
-    //     body:JSON.stringify({name , age , email})
-    // })
-    // data = await data.json();
-    // console.log(data)
-    alert(JSON.stringify(from))
+    let data = await fetch("http://localhost:3000/mongodb",{
+        method:"Post",
+        body:JSON.stringify(from)
+    })
+    data = await data.json();
+  return navi.push("/getapis")
+ 
 }
 
     
