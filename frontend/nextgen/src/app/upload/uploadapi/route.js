@@ -12,4 +12,4 @@ export  async function POST(req){
     const buffer = Buffer.from(datainfo);
     await writeFile(path , buffer )
     return NextResponse.json({"message":"all are upload ",success:true})
-}
+} 
