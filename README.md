@@ -1,6 +1,6 @@
-Next.js Interview Questions & Routing System
+Next.js Routing System
 
-This repository contains a collection of important Next.js interview questions along with a practical routing system implementation built using Next.js.
+This repository contains a collection of important Next.js along with a practical routing system implementation built using Next.js.
 The purpose of this project is to revise core Next.js concepts and demonstrate routing functionality in a real example.
 
 📌 Project Overview
@@ -8,10 +8,7 @@ The purpose of this project is to revise core Next.js concepts and demonstrate r
 
 This project includes:
 
-Common Next.js interview questions
-Explanation of important Next.js concepts
-A routing system implementation
-Practical examples for learning and revision
+
 
 It is useful for:
 
