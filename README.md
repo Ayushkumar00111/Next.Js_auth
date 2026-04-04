@@ -15,6 +15,8 @@ It is useful for:
 Students preparing for frontend / Next.js interviews
 Developers learning Next.js fundamentals
 Quick revision of Next.js concepts
+
+
 🚀 Features
 Collection of frequently asked Next.js interview questions
 Example of Next.js App Router
@@ -26,6 +28,8 @@ Next.js
 React
 JavaScript
 CSS
+
+
 📂 Project Structure
 project-folder
 │
@@ -41,6 +45,9 @@ project-folder
 │   └── nextjs-questions.md
 │
 └── README.md
+
+
+
 📖 Topics Covered
 
 Some of the Next.js concepts included in this project:
@@ -55,11 +62,11 @@ API Routes
 Data Fetching
 Middleware
 SEO in Next.js
+
+
+
+
 ▶️ How to Run the Project
-
-Clone the repository:
-
-git clone https://github.com/your-username/repo-name.git
 
 Install dependencies:
 
@@ -72,13 +79,16 @@ npm run dev
 Open in browser:
 
 http://localhost:3000
+
+
+
 🎯 Purpose of This Project
 
 The main goal of this repository is to:
-
 Practice Next.js concepts
 Prepare for technical interviews
 Demonstrate routing implementation in Next.js
 👨‍💻 Author
+Ayush 
 
 Ayush Kumar
