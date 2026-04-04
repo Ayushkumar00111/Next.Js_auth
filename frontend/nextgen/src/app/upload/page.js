@@ -20,7 +20,7 @@ export default function upload(){
     }
     return(
         <div>
-            <h1> add files</h1>
+            <h1>  files</h1>
             <form onSubmit={fun}>
    <input type="file" onChange={(e)=>{setdata(e.target.files?.[0])}}/>
             <button >ADD photo / files</button>
