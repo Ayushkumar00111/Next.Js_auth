@@ -10,7 +10,7 @@ This project includes:
 
 
 
-It is useful for:
+It is useful for
 
 Students preparing for frontend / Next.js interviews
 Developers learning Next.js fundamentals
