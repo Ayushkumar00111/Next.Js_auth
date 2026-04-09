@@ -100,7 +100,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 text-center py-6">
-        <p>© 2026 DevSpace. All rights reserved.</p>
+        <p>© 2026 DevSpace</p>
       </footer>
 
     </main>
