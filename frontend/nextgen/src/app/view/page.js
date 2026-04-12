@@ -71,10 +71,7 @@ export default function Home() {
 
           <div className="p-6 bg-gray-50 rounded-xl shadow hover:shadow-lg transition">
             <h4 className="text-xl font-semibold mb-3">Easy Development</h4>
-            <p className="text-gray-600">
-              Developer-friendly features like routing, API routes and
-              optimized builds.
-            </p>
+         
           </div>
 
         </div>
