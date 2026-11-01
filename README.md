@@ -26,8 +26,7 @@ Beginner friendly code
 🛠️ Tech Stack
 Next.js
 React
-JavaScript
-CSS
+
 
 
 📂 Project Structure
@@ -88,7 +87,6 @@ The main goal of this repository is to:
 Practice Next.js concepts
 Prepare for technical interviews
 Demonstrate routing implementation in Next.js
-👨‍💻 Author
-Ayush 
+
 
 Ayush Kumar
